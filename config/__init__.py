@@ -1,0 +1,11 @@
+from .settings import (
+    PROJECT_ROOT,
+    DATA_RAW,
+    DATA_PROCESSED,
+    DATA_METRICS,
+    MODELS_DIR,
+    EUROSAT_CLASSES,
+    SENTINEL2_BANDS,
+    AOI_AMAZON,
+    RANDOM_SEED,
+)

@@ -1,0 +1,36 @@
+# Core ML frameworks
+torch>=2.5.0,<2.6
+torchvision>=0.20.0,<0.21
+tensorflow>=2.18.0,<2.19
+
+# Geospatial
+rasterio>=1.4.0,<1.5
+geopandas>=1.0.0,<1.1
+shapely>=2.0.0
+sentinelhub>=3.11.0
+sentinelsat>=1.2.0
+
+# CV preprocessing
+albumentations>=1.4.0
+opencv-python>=4.10.0
+pillow>=11.0.0
+
+# Data
+numpy>=1.26,<2.1
+pandas>=2.2.0
+scikit-learn>=1.5.0
+
+# Experiment tracking
+mlflow>=2.18.0
+
+# UI
+streamlit>=1.40.0
+streamlit-folium>=0.23.0
+folium>=0.18.0
+pydeck>=0.9.0
+
+# Plots
+matplotlib>=3.9.0
+
+# Orchestration (Airflow is finicky on Windows; use docker-compose in Phase 4)
+apache-airflow>=2.10.0,<3.0

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# Data (large, regenerable)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.tif
+*.tiff
+*.jp2
+*.SAFE/
+
+# Models (large; use Git LFS or HF Hub for distribution)
+models/*.pt
+models/*.pth
+models/*.keras
+models/*.h5
+models/*.onnx
+!models/.gitkeep
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
